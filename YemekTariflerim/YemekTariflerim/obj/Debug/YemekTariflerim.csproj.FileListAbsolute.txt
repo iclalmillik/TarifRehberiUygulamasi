@@ -1,0 +1,15 @@
+C:\Users\icllm\Desktop\yazlab1\YemekTariflerim\YemekTariflerim\bin\Debug\YemekTariflerim.exe.config
+C:\Users\icllm\Desktop\yazlab1\YemekTariflerim\YemekTariflerim\bin\Debug\YemekTariflerim.exe
+C:\Users\icllm\Desktop\yazlab1\YemekTariflerim\YemekTariflerim\bin\Debug\YemekTariflerim.pdb
+C:\Users\icllm\Desktop\yazlab1\YemekTariflerim\YemekTariflerim\obj\Debug\YemekTariflerim.csproj.AssemblyReference.cache
+C:\Users\icllm\Desktop\yazlab1\YemekTariflerim\YemekTariflerim\obj\Debug\YemekTariflerim.Form1.resources
+C:\Users\icllm\Desktop\yazlab1\YemekTariflerim\YemekTariflerim\obj\Debug\YemekTariflerim.Properties.Resources.resources
+C:\Users\icllm\Desktop\yazlab1\YemekTariflerim\YemekTariflerim\obj\Debug\YemekTariflerim.csproj.GenerateResource.cache
+C:\Users\icllm\Desktop\yazlab1\YemekTariflerim\YemekTariflerim\obj\Debug\YemekTariflerim.csproj.CoreCompileInputs.cache
+C:\Users\icllm\Desktop\yazlab1\YemekTariflerim\YemekTariflerim\obj\Debug\YemekTariflerim.exe
+C:\Users\icllm\Desktop\yazlab1\YemekTariflerim\YemekTariflerim\obj\Debug\YemekTariflerim.pdb
+C:\Users\icllm\Desktop\yazlab1\YemekTariflerim\YemekTariflerim\obj\Debug\YemekTariflerim.FormTariflerim.resources
+C:\Users\icllm\Desktop\yazlab1\YemekTariflerim\YemekTariflerim\obj\Debug\YemekTariflerim.TarifListem.resources
+C:\Users\icllm\Desktop\yazlab1\YemekTariflerim\YemekTariflerim\obj\Debug\YemekTariflerim.FormMenu.resources
+C:\Users\icllm\Desktop\yazlab1\YemekTariflerim\YemekTariflerim\obj\Debug\YemekTariflerim.TarifGuncelle.resources
+C:\Users\icllm\Desktop\yazlab1\YemekTariflerim\YemekTariflerim\obj\Debug\YemekTariflerim.TarifEkleme.resources

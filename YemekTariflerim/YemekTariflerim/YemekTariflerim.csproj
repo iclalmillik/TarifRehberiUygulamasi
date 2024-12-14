@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FE3C215F-525F-49BA-AF54-85966ECC6962}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>YemekTariflerim</RootNamespace>
+    <AssemblyName>YemekTariflerim</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMenu.Designer.cs">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormTariflerim.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTariflerim.Designer.cs">
+      <DependentUpon>FormTariflerim.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MaliyetHesaplama.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TarifEkleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TarifEkleme.Designer.cs">
+      <DependentUpon>TarifEkleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TarifGuncelle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TarifGuncelle.Designer.cs">
+      <DependentUpon>TarifGuncelle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TarifListem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TarifListem.Designer.cs">
+      <DependentUpon>TarifListem.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMenu.resx">
+      <DependentUpon>FormMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTariflerim.resx">
+      <DependentUpon>FormTariflerim.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="TarifEkleme.resx">
+      <DependentUpon>TarifEkleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TarifGuncelle.resx">
+      <DependentUpon>TarifGuncelle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TarifListem.resx">
+      <DependentUpon>TarifListem.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Brand pattern for sustainable nutrition business_.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2c8d2917-76e7-4380-a275-4336915828a4.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d0a370fa-4f63-4eef-8a2e-d934563434e5.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fundo Comida Ocidental Quadro De Comida Simples Papel de Parede Para Download Gratuito - Pngtree.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fundo Comida Ocidental Quadro De.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fundo Comida Ocidental Quadro De %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Wallpaper green.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2c8d2917-76e7-4380-a275-4336915828a41.jpeg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
